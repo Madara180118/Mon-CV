@@ -1,0 +1,63 @@
+body { background-color: #F5F5F5; margin: 20px; font-size: 20px; color: #212121; }
+	
+	header { background-color: #800020 ; display: flex; 
+			align-items: center; justify-content: space-between; 
+			perspective: 1000px; transform-style: preserve-3d; 
+			transform: rotateX(10deg); transform: rotateY(10deg) ; 
+			box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5); 
+			border-radius: 10% 50% 10% 50%; }
+
+		img { width: 150px; height: 150px; border-radius: 10% 50% 10% 50%; 
+			background-color: #2C3E50; 
+			box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5); }
+
+		h1 { margin: 0 auto; text-align: center; color: #B0C4DE; 
+			perspective: 1000px;  
+			text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5); border-radius: 10px; }	
+	header {  }		
+
+	#introduction { display: flex; justify-content: space-between; 
+		align-items: flex-start; gap: 20px; margin: 50px; color: #FFFFFF; }
+
+	.flip-container { perspective: 1000px; width: 45%; 
+		transform: rotateX(10deg) ;height: 200px; }
+
+	.flipper { position: relative; width: 100%; height: 100%; 
+		transform-style: preserve-3d; 
+		transition: transform 1s; }
+
+	.flip-container:hover .flipper { transform: rotateY(180deg); }
+
+	.devant { position: absolute; width: 100%; height: 100%;
+		backface-visibility: hidden; background-color: #1A237E; 
+		display: flex; justify-content: center; 
+		align-items: center; margin-right: 100px; 
+		box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2); 
+		border-radius: 10px }
+
+	.derrière { position: absolute; 
+		backface-visibility: hidden; background-color: #1A237E; 
+		transform: rotateY(180deg); padding: 20px; 
+		text-align: left; 
+		box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2); 
+		border-radius: 10px; }
+  
+  
+	#Pro { display: flex;  color: #1A237E; 
+		 width: 100%; height: 100%; justify-content: center; align-items: center;
+		 text-align: center; padding: 10px; perspective: 1000px; 
+		 transform-style: preserve-3d; transform: rotateX(10deg); 
+		 transform: rotateY(10deg);  }
+		
+		.Professionnelle { border-radius: 10px; color: #FAF3DD; 
+			 box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2); 
+			padding: 10px; background-color: #8B0000; }
+
+		.formation { margin: 0 20px; border-radius: 10px; 
+			box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2); 
+			padding: 10px; text-align: left; background-color: #3949AB; 
+			color: #FFFFFF; }
+
+		#CompPro { border-radius: 10px; color: #FAF3DD;
+			box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2); 
+			padding: 10px; background-color: #8B0000; }
