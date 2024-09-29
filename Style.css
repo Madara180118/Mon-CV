@@ -60,4 +60,8 @@ body { background-color: #bef1f7; margin: 20px; font-size: 20px; color: #212121;
 
 		#CompPro { border-radius: 10px; color: #cbcae8;
 			box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2); 
+			padding: 10px; background-color: #7069f5; }<<<<<<< HEAD
 			padding: 10px; background-color: #7069f5; }
+=======
+			padding: 10px; background-color: #8B0000; }
+>>>>>>> 06738febbaea4822f2d1e76bcb74b3474084dca5
